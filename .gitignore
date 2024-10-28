@@ -1,0 +1,9 @@
+node_modules
+.env
+yarn.lock
+.DS_Store
+yarn-error.log
+package-lock.json
+dist
+test.http
+ansible
