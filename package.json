@@ -1,9 +1,9 @@
 {
   "name": "automobile-marketplace-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "entry.js",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node src/entry.js",
     "build": "tsc",
     "dev": "ts-node-dev src/entry.ts",
     "test": "jest"

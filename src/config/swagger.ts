@@ -4,7 +4,7 @@ const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
         info: {
-            title: 'Car API',
+            title: 'Automobile API',
             version: '1.0.0',
             description: 'API for managing car listings',
         },

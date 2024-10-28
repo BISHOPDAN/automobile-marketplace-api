@@ -22,7 +22,7 @@ function startServer() {
     // Connect to the database using promises
     mongoose.connect(dbUri, { ignoreUndefined: true })
       .then(() => {
-        console.log('automobileMarketplace 🙏 [connected]');
+        console.log('automobile 🙏 [connected]');
         console.log(`http://localhost:${port}`);
       })
       .catch((err) => {
