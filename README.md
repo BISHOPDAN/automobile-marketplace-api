@@ -47,4 +47,4 @@ Make sure you have the following installed on your machine:
 
    ```bash
    git clone https://github.com/BISHOPDAN/automobile-marketplace-api.git
-   cd car-api
+   cd automobile-marketplace-api
