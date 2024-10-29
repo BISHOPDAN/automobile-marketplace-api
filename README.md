@@ -13,7 +13,7 @@ A RESTful API for managing car listings in an automobile marketplace. Sellers ca
   - [Search and Filter Cars](#search-and-filter-cars)
   - [Car Detail View](#car-detail-view)
 - [Contributing](#contributing)
-- [Unit Tests](#Unit tests)
+- [Tests](#tests)
 - [Deployment](#deployment)
 - [License](#license)
 
