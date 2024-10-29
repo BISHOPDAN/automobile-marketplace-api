@@ -58,19 +58,5 @@ Make sure you have the following installed on your machine:
 
 2.  **Install Dependencies**
 
+   ```bash
    npm install
-
-
-3.  **Set Environment Variables**
-
-   PORT=4000
-   DB_URI=your_mongodb_uri
-
-
-4.  **Run the Application**
-
-   npm start
-
-5.  **Swagger Url link**
-
-   https://automobile-marketplace-api-1.onrender.com/api-docs
