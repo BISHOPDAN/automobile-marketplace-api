@@ -9,9 +9,10 @@ const app_1 = __importDefault(require("./app"));
 dotenv_1.default.config();
 function startServer() {
     const app = (0, app_1.default)();
-    const port = process.env.PORT;
+    const port = process.env.PORT || 3000;
     app.listen(port, () => {
-        console.log(`Server running on http://localhost:${port}`);
+        const baseUrl = process.env.NODE_ENV === 'production' ? process.env.BASE_URL : `http://localhost:${port}`;
+        console.log(`Server running on ${baseUrl}`);
         const dbUri = process.env.DB_URI;
         if (!dbUri) {
             console.error('DB connection string is missing.');
@@ -22,7 +23,7 @@ function startServer() {
         mongoose_1.default.connect(dbUri, { ignoreUndefined: true })
             .then(() => {
             console.log('automobile 🙏 [connected]');
-            console.log(`http://localhost:${port}`);
+            console.log(`App URL: ${baseUrl}`);
         })
             .catch((err) => {
             console.error('Failed to connect to DB:', err);
