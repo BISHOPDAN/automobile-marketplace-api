@@ -78,7 +78,14 @@ Make sure you have the following installed on your machine:
    npm start
    ```
 
-5.  **Swagger Url link**
+5.  **Unit Test**
+
+   ```bash
+   npm test
+   ```    
+
+
+6.  **Swagger Url link**
 
    ```bash
    https://automobile-marketplace-api-1.onrender.com/api-docs
