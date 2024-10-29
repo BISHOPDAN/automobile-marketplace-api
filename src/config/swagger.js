@@ -14,7 +14,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: 'http://localhost:3000',
+                url: 'https://automobile-marketplace-api-1.onrender.com',
             },
         ],
     },
