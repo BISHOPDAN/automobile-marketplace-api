@@ -28,7 +28,7 @@ A RESTful API for managing car listings in an automobile marketplace. Sellers ca
 
 This project is built using the following technologies:
 
-- **Node.js**: JavaScript runtime for building the API.
+- **Node.js**: JavaScript and TypeScript runtime for building the API.
 - **Express.js**: Web framework for Node.js.
 - **Swagger**: Documentation tool for RESTful APIs.
 - **MongoDB**: Database for storing car listing information.
