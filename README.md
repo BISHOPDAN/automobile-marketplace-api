@@ -20,7 +20,7 @@ A RESTful API for managing car listings in an automobile marketplace. Sellers ca
 ## Features
 
 - **Add Car Listings**: Create new car listings with details and images.
-- **Search and Filter**: Retrieve a list of cars based on filter criteria such as make, model, year, price, and mileage.
+- **Search and Filter**: Retrieve a list of cars based on filter criteria such as make, carModel, year, price, and mileage.
 - **Get A Single Car Detail By It Id**: Get a single car detail using the Id.
 - **Image Uploads**: Upload images associated with car listings.
 
