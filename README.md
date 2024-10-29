@@ -54,27 +54,32 @@ Make sure you have the following installed on your machine:
    ```bash
    git clone https://github.com/BISHOPDAN/automobile-marketplace-api.git
    cd automobile-marketplace-api
+   ```
 
 
 2.  **Install Dependencies**
 
    ```bash
    npm install
+   ```
 
 
-3.  Set Environment Variables
+3.  **Set Environment Variables**
 
    ```bash
    PORT=4000
    DB_URI=your_mongodb_uri
+   ```
 
 
-4.  Run the Application
+4.  **Run the Application**
 
    ```bash
    npm start
+   ```
 
-5.  Swagger Url link
+5.  **Swagger Url link**
 
    ```bash
    https://automobile-marketplace-api-1.onrender.com/api-docs
+   ```
