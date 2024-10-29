@@ -1,4 +1,4 @@
-# Car API
+# Automobile API
 
 A RESTful API for managing car listings in an automobile marketplace. Sellers can add listings with details and images, while buyers can search, filter, and view detailed information about available cars.
 
